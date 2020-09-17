@@ -2,37 +2,133 @@
   text-align: center;
 }
 
+/* Navbar */
+
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  height: 5vmin;
+  padding-left: 37%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navColor {
+  background-color: #FFF6EE;
+  font: normal normal bold 16px/19px Roboto;
+}
+.nav-link {
+  color: #3C516F !important;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.nav-link:hover{
+  color: #f49512 !important;
+
+}
+.navPadding {
+  padding-right: 10%;
+  margin-left: auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Homepage-header */
+
+.Home-header {
+  height: 645px;
+  background: transparent url('images/bg.svg') 0% 0% no-repeat padding-box;
+  background-size: cover;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.Home-Picbanner {
+  width: 45%;
+  padding: 8% 10% 0px 0px;
+  float: right;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Text-Header-Banner {
+  padding-top: 10%;
+  padding-left: 12%;
+  text-align: left;
+  font: normal normal normal 48px/61px Lora;
+  letter-spacing: 3.84px;
+  color: #FFFFFF;
+  flex-wrap: wrap;
+  width: 715px;
+}
+.Subtext-Header-Banner{
+  flex-wrap: wrap;
+  width: 680px;
+  text-align: left;
+  font: normal normal normal 24px/50px Roboto;
+  letter-spacing: 2.88px;
+  color: #FFF6EE;
+  padding-left: 12%;
+  padding-top: 10px;
+}
+.explore-button {
+  border-radius: 5px;
+  background-color: #f49512;
+  color: #FFFFFF;
+  float: left;
+  margin-left: 12%;
+  width: 178px;
+  font: normal normal bold 16px/19px Roboto;
+  letter-spacing: 1.92px;
+  margin-top: 67px;
+}
+.explore-button:hover {
+  border: 1px solid #f49512;
+  background-color: transparent;
+  color: #FFFFFF;
+}
+.contactus-button {
+  margin-top: 67px;
+  border: 1px solid #f49512;
+  border-radius: 5px;
+  color: #FFFFFF;
+  float: left;
+  margin-left: 2%;
+  width: 178px;
+  font: normal normal bold 16px/19px Roboto;
+  letter-spacing: 1.92px;
+}
+.contactus-button:hover {
+  background-color: #f49512;
+  color: #FFFFFF;
+}
+
+/* Homepage-services */
+.Home-services {
+  height: 1000px;
+  background: transparent url('images/bg2.svg') 0% 0% no-repeat padding-box;
+  background-size: cover;
+  width: 100%;
+  margin: -23px 0 0 -23px;
+}
+
+.Text-Home-services {
+  text-align: left;
+  font: normal normal bold 62px/79px Lora;
+  letter-spacing: 4.96px;
+  color: #26221D;
+  padding-top: 10%;
+  padding-left: 12%;
+}
+.Subtext-Home-services {
+  text-align: left;
+  font: normal normal normal 24px/50px Roboto;
+  letter-spacing: 2.88px;
+  color: #26221D;
+  padding-left: 12%;
+  padding-bottom: 10px;
+}
+.Home-services-div {
+  padding-right: 12%;
+}
+.Home-services .row {
+  margin-left: 12%;
+}
+.services-square {
+  background: transparent url('images/services small square.svg') 0% 0% no-repeat padding-box;
+  background-size: cover;
+  height: 313px;
+  text-align: center;
+  padding-top: 5%;
 }
