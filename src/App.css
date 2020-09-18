@@ -1,7 +1,9 @@
 .App {
   text-align: center;
 }
-
+.row {
+  margin-right: 0 !important;
+}
 /* Navbar */
 
 .App-logo {
@@ -26,7 +28,28 @@
   padding-right: 10%;
   margin-left: auto;
 }
-
+.navbar-toggler {
+  border: 1px solid #3C516F;
+}
+ul {
+  list-style: none;
+}
+.Menuclass {
+  /* padding: 20px 272px; */
+  background-color: #133178 !important;
+}
+.MenuItem {
+  color: #FFFFFF !important;
+  float: left;
+}
+.service-dropdown-header {
+  text-align: left;
+  font: normal normal normal 32px/36px Lora;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  text-decoration: none !important;
+  float: left;
+}
 /* Homepage-header */
 
 .Home-header {
@@ -131,4 +154,122 @@
   height: 313px;
   text-align: center;
   padding-top: 5%;
+}
+.services-square img {
+  margin-bottom: 7%;
+}
+.Link-service {
+  text-align: center;
+  font: normal normal bold 24px/29px Roboto;
+  letter-spacing: 2.88px;
+  color: #26221D;
+  text-decoration: none !important;
+}
+
+/* How We Work */
+.Home-work {
+padding-left: 12%;
+}
+.work {
+  background: transparent url('images/dashed circle.svg') 0% 0% no-repeat padding-box;
+  background-size: cover;
+  height: 245px;
+  text-align: center;
+  padding-top: 5%;
+}
+.Home-work p {
+  text-align: center;
+  font: normal normal bold 62px/79px Lora;
+  letter-spacing: 4.96px;
+  color: #26221D;
+  padding-right: 12%;
+  padding-top: 2%;
+}
+.work img {
+    width: 57%;
+    padding-left: 5%;
+}
+.workImg {
+  width: 67% !important;
+  padding: 7% 0 0 5% !important;
+}
+.work-divText {
+  padding-top: 22%;
+}
+.work-divText1 {
+  padding-top: 11%;
+}
+.work-divText2 {
+  padding-top: 6%;
+}
+.work-divText3 {
+  padding-top: 3%;
+}
+.work-divText4 {
+  padding-top: 15%;
+}
+.work-header {
+  font: normal normal bold 21px Roboto;
+  letter-spacing: 2.88px;
+  color: #26221D;
+  margin-top: 50%;
+  margin-bottom: 5%;
+} 
+.work-text {
+  text-align: center;
+  font: normal normal normal 19px/36px Roboto;
+  letter-spacing: 1.92px;
+  color: #000000;
+}
+
+
+/* Our Projects */
+.Home-project {
+  height: 645px;
+  background: transparent url('images/bg3.svg') 0% 0% no-repeat padding-box;
+  background-size: cover;
+  width: 100%;
+  margin-top: 270px;
+}
+.Home-project p {
+  font: normal normal bold 62px/79px Lora;
+  letter-spacing: 4.96px;
+  color: #26221D;
+  padding-top: 2%;
+}
+.Home-project-bg {
+  height: 445px;
+  width: 60%;
+  background-color: white;
+  margin-left: 20%;
+  box-shadow: 6px 3px 30px #00000029;
+  border-radius: 20px;
+}
+.project-header {
+  float: right; 
+  padding-right: 10%;
+  padding-top: 5%;
+  font: normal normal bold 40px/51px Lora;
+  letter-spacing: 0px;
+  color: #1E365A;
+}
+.project-text {
+  width: 55%;
+  float: right;
+  text-align: left;
+  padding-right: 5%;
+  padding-top: 5%;
+  font: normal normal normal 16px/50px Roboto;
+  letter-spacing: 1.92px;
+  color: #000000;
+}
+.Home-Picproject {
+  width: 40%;
+  padding: 0 5% 0 0;
+  float: right;
+}
+.Home-Picfastpayproject {
+  width: 37%;
+  padding: 0 10% 0 0;
+  float: right;
 }
