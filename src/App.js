@@ -35,67 +35,67 @@ function App() {
           <Popover
               position={Position.BOTTOM}
               content={
-                <Menu>
+                <Menu.Group>
                 <div className="row text-right hover14 column Menuclass">
-            <div className="col-sm-6 col-lg-4">
-            <a className="MenuItem service-dropdown-header" href="/services/mobile-app-development" role="menuitem">
+            <div className="col-sm-6 col-lg-4 divWrap">
+            <a className="MenuItem service-dropdown-header" href="#" role="menuitem">
                  Predictive Software Engineering
                       </a>
                       <br />
-                      <a className="MenuItem" href="/services/mobile-app-development" role="menuitem">
+                      <a className="MenuItem service-dropdown-text" href="#" role="menuitem">
+                      ◻ Business Application Development
+                      </a>
+                      <br />
+                      <a className="MenuItem service-dropdown-text" href="#" role="menuitem">
+                      ◻ Full-Stack Web Development
+                      </a>
+                      <br />
+                      <a className="MenuItem service-dropdown-text" href="#" role="menuitem">
+                      ◻ Big Data & Business Intelligence Development
+                      </a>
+                      <a className="MenuItem service-dropdown-text" href="#" role="menuitem">
+                      ◻ Application Migration and Legacy Modernization Services
+                      </a>
+                      <br />
+                      <a className="MenuItem service-dropdown-text" href="/services/mobile-app-development" role="menuitem">
                       ◻ Mobile App Development
                       </a>
                       <br />
-                      <a className="MenuItem" href="/services/mobile-app-development" role="menuitem">
-                      ◻ Mobile App Development
-                      </a>
-                      <br />
-                      <a className="MenuItem" href="/services/mobile-app-development" role="menuitem">
-                      ◻ Mobile App Development
-                      </a>
-                      <a className="MenuItem" href="/services/mobile-app-development" role="menuitem">
-                      ◻ Predictive Software Engineering
-                      </a>
-                      <br />
-                      <a className="MenuItem" href="/services/mobile-app-development" role="menuitem">
-                      ◻ Mobile App Development
-                      </a>
-                      <br />
-                      <a className="MenuItem" href="/services/mobile-app-development" role="menuitem">
-                      ◻ Mobile App Development
+                      <a className="MenuItem service-dropdown-text" href="#" role="menuitem">
+                      ◻ Software Testing & QA
                       </a>
             </div>
 
             <div className="col-sm-6 col-lg-4">
-            <a className="MenuItem service-dropdown-header" href="/services/mobile-app-development" role="menuitem">
+            <a className="MenuItem service-dropdown-header" href="#" role="menuitem">
                  Dedicated Software Development Teams
                       </a>
             </div>
 
             <div className="col-sm-6 col-lg-4">
-            <a className="MenuItem service-dropdown-header" href="/services/mobile-app-development" role="menuitem">
+            <a className="MenuItem service-dropdown-header" href="#" role="menuitem">
                   Centers of Excellence
                       </a>
                       <br />
-                      <a className="MenuItem" href="/services/mobile-app-development" role="menuitem">
-                      ◻ Mobile App Development
+                      <a className="MenuItem service-dropdown-text" href="#" role="menuitem">
+                      ◻ TETRA: Technical Debt Reduction
                       </a>
                       <br />
-                      <a className="MenuItem" href="/services/mobile-app-development" role="menuitem">
-                      ◻ Mobile App Development
+                      <a className="MenuItem service-dropdown-text" href="#" role="menuitem">
+                      ◻ Robotic Process Automation
                       </a>
                       <br />
-                      <a className="MenuItem" href="/services/mobile-app-development" role="menuitem">
-                      ◻ Mobile App Development
+                      <a className="MenuItem service-dropdown-text" href="#" role="menuitem">
+                      ◻ Artificial Intelligence & Machine Learning
                       </a>
                       <br />
-                      <a className="MenuItem" href="/services/mobile-app-development" role="menuitem">
-                      ◻ Mobile App Development
+                      <a className="MenuItem service-dropdown-text" href="#" role="menuitem">
+                      ◻ Chatbots
                       </a>
             </div>
             </div>
                   
-                </Menu>
+                </Menu.Group>
               }
             >
               <Link className="nav-link">SERVICES</Link>
@@ -120,6 +120,8 @@ function App() {
         </div>
       </nav>
 
+
+    
       <div className="">
         <Switch>
           <Route exact path={["/", "/fastsolution"]} component={Home} />

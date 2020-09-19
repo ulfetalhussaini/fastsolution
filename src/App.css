@@ -14,6 +14,8 @@
 .navColor {
   background-color: #FFF6EE;
   font: normal normal bold 16px/19px Roboto;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 .nav-link {
   color: #3C516F !important;
@@ -35,7 +37,7 @@ ul {
   list-style: none;
 }
 .Menuclass {
-  /* padding: 20px 272px; */
+  padding: 0 57px 100px 6px; 
   background-color: #133178 !important;
 }
 .MenuItem {
@@ -49,7 +51,91 @@ ul {
   color: #FFFFFF;
   text-decoration: none !important;
   float: left;
+  padding: 10% 0 15% 23%;
 }
+.service-dropdown-text {
+  text-align: left;
+  font: normal normal normal 24px/30px Roboto;
+  color: #FFFFFF;
+  text-decoration: none !important;
+  padding: 0 0 3% 23%;
+
+}
+.divWrap {
+  flex-wrap: wrap;
+  width: 437px;
+}
+
+
+/* Footer */
+.footer {
+  font: normal normal bold 16px/19px Roboto;
+  letter-spacing: 4.48px;
+}
+.footer-yellow {
+  background-color: #FFFBEE;
+  color: #000000;
+  height: 300px;
+}
+.footer-yellow .div1 {
+  font: normal normal normal 43px/61px Lora;
+  letter-spacing: 3.84px;
+  color: #26221D;
+}
+.footer-yellow .div2 {
+  font-family: Roboto !important;
+  font-size: 16px !important;
+  font-weight: normal !important;
+  letter-spacing: 1.92px !important;
+  color: #000000 !important;
+  padding-top: 1%;
+}
+.footer-yellow .col-lg-8 {
+  padding: 5% 0% 1% 11%;
+}
+.footer-yellow .col-lg-4 {
+  margin-top: 3%;
+}
+.get-in-touch-button {
+  border-radius: 5px;
+  background-color: #f49512;
+  color: #FFFFFF;
+  float: left;
+  margin-left: 12%;
+  width: 200px;
+  height: 50px;
+  font: normal normal normal 20px/19px Roboto;
+  letter-spacing: 1.92px;
+  margin-top: 67px;
+}
+.get-in-touch-button:hover {
+  border: 1px solid #f49512;
+  background-color: transparent;
+  color: #f49512;
+}
+.footer-blue {
+  background-color: #1E365A;
+  height: 400px;
+  padding: 5% 0 0 12%;
+  color: #FFFFFF;
+
+}
+.footer-blue a {
+  color: #FFFFFF !important;
+}
+.footer-blue .liStyle {
+  padding-top: 5%;
+  letter-spacing: 1.92px;
+  font: normal normal normal 14px/19px Roboto;
+}
+.footer-logo {
+  width: 80%;
+}
+.social-icons {
+  width: 6% !important;
+  margin: 26px 47px 59px 0;
+}
+
 /* Homepage-header */
 
 .Home-header {

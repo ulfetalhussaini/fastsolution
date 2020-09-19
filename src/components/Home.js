@@ -129,6 +129,23 @@ const Home = () => {
   </div>
 
 
+    {/* Our Clients */}
+    {/* <div className="Home-client">
+        <p>OUR CLIENTS</p>
+        <div className="Home-client-bg">
+        <div></div>
+        <div className="row text-right hover14 column">
+            <div className="col-sm-6 col-lg-2 work">
+            <div className="project-header">FastPay - Mobile Wallet</div>
+            </div>
+            <div className="col-sm-6 col-lg-2 work">
+            <div className="project-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd</div>
+          </div>
+           
+        </div>
+  </div>
+</div> */}
+
         <div>
         <Switch>
           <Route path="/MobileAppDevelopment" component={MobileAppDevelopment} />

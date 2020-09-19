@@ -4,11 +4,13 @@ import { BrowserRouter } from "react-router-dom";
 
 import './index.css';
 import App from './App';
+import Footer from './components/Footer';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
     <BrowserRouter>
     <App />
+    <Footer />
   </BrowserRouter>,
   document.getElementById('root')
 );
