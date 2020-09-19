@@ -10,45 +10,49 @@
   height: 5vmin;
   padding-left: 37%;
 }
-
+.navbar-nav .active {
+  height: 10px;
+  background: transparent url("images/breadcombs.svg") 0% 0% no-repeat
+    padding-box;
+  background-size: cover;
+}
 .navColor {
-  background-color: #FFF6EE;
+  background-color: #fff6ee;
   font: normal normal bold 16px/19px Roboto;
   padding-top: 1%;
   padding-bottom: 1%;
 }
 .nav-link {
-  color: #3C516F !important;
+  color: #3c516f !important;
   padding-left: 20px;
   padding-right: 20px;
 }
-.nav-link:hover{
+.nav-link:hover {
   color: #f49512 !important;
-
 }
 .navPadding {
   padding-right: 10%;
   margin-left: auto;
 }
 .navbar-toggler {
-  border: 1px solid #3C516F;
+  border: 1px solid #3c516f;
 }
 ul {
   list-style: none;
 }
 .Menuclass {
-  padding: 0 57px 100px 6px; 
+  padding: 0 57px 100px 6px;
   background-color: #133178 !important;
 }
 .MenuItem {
-  color: #FFFFFF !important;
+  color: #ffffff !important;
   float: left;
 }
 .service-dropdown-header {
   text-align: left;
   font: normal normal normal 32px/36px Lora;
   letter-spacing: 0px;
-  color: #FFFFFF;
+  color: #ffffff;
   text-decoration: none !important;
   float: left;
   padding: 10% 0 15% 23%;
@@ -56,16 +60,14 @@ ul {
 .service-dropdown-text {
   text-align: left;
   font: normal normal normal 24px/30px Roboto;
-  color: #FFFFFF;
+  color: #ffffff;
   text-decoration: none !important;
   padding: 0 0 3% 23%;
-
 }
 .divWrap {
   flex-wrap: wrap;
   width: 437px;
 }
-
 
 /* Footer */
 .footer {
@@ -73,14 +75,14 @@ ul {
   letter-spacing: 4.48px;
 }
 .footer-yellow {
-  background-color: #FFFBEE;
+  background-color: #fffbee;
   color: #000000;
   height: 300px;
 }
 .footer-yellow .div1 {
   font: normal normal normal 43px/61px Lora;
   letter-spacing: 3.84px;
-  color: #26221D;
+  color: #26221d;
 }
 .footer-yellow .div2 {
   font-family: Roboto !important;
@@ -99,7 +101,7 @@ ul {
 .get-in-touch-button {
   border-radius: 5px;
   background-color: #f49512;
-  color: #FFFFFF;
+  color: #ffffff;
   float: left;
   margin-left: 12%;
   width: 200px;
@@ -114,14 +116,13 @@ ul {
   color: #f49512;
 }
 .footer-blue {
-  background-color: #1E365A;
+  background-color: #1e365a;
   height: 400px;
-  padding: 5% 0 0 12%;
-  color: #FFFFFF;
-
+  padding: 5% 0 0 8%;
+  color: #ffffff;
 }
 .footer-blue a {
-  color: #FFFFFF !important;
+  color: #ffffff !important;
 }
 .footer-blue .liStyle {
   padding-top: 5%;
@@ -140,7 +141,7 @@ ul {
 
 .Home-header {
   height: 645px;
-  background: transparent url('images/bg.svg') 0% 0% no-repeat padding-box;
+  background: transparent url("images/bg.svg") 0% 0% no-repeat padding-box;
   background-size: cover;
   width: 100%;
 }
@@ -157,26 +158,26 @@ ul {
   text-align: left;
   font: normal normal normal 48px/61px Lora;
   letter-spacing: 3.84px;
-  color: #FFFFFF;
+  color: #ffffff;
   flex-wrap: wrap;
   width: 715px;
 }
-.Subtext-Header-Banner{
+.Subtext-Header-Banner {
   flex-wrap: wrap;
   width: 680px;
   text-align: left;
   font: normal normal normal 24px/50px Roboto;
   letter-spacing: 2.88px;
-  color: #FFF6EE;
+  color: #fff6ee;
   padding-left: 12%;
   padding-top: 10px;
 }
 .explore-button {
   border-radius: 5px;
   background-color: #f49512;
-  color: #FFFFFF;
+  color: #ffffff;
   float: left;
-  margin-left: 12%;
+  margin-left: 8%;
   width: 178px;
   font: normal normal bold 16px/19px Roboto;
   letter-spacing: 1.92px;
@@ -185,13 +186,13 @@ ul {
 .explore-button:hover {
   border: 1px solid #f49512;
   background-color: transparent;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .contactus-button {
   margin-top: 67px;
   border: 1px solid #f49512;
   border-radius: 5px;
-  color: #FFFFFF;
+  color: #ffffff;
   float: left;
   margin-left: 2%;
   width: 178px;
@@ -200,13 +201,13 @@ ul {
 }
 .contactus-button:hover {
   background-color: #f49512;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 /* Homepage-services */
 .Home-services {
   height: 1000px;
-  background: transparent url('images/bg2.svg') 0% 0% no-repeat padding-box;
+  background: transparent url("images/bg2.svg") 0% 0% no-repeat padding-box;
   background-size: cover;
   width: 100%;
   margin: -23px 0 0 -23px;
@@ -216,7 +217,7 @@ ul {
   text-align: left;
   font: normal normal bold 62px/79px Lora;
   letter-spacing: 4.96px;
-  color: #26221D;
+  color: #26221d;
   padding-top: 10%;
   padding-left: 12%;
 }
@@ -224,7 +225,7 @@ ul {
   text-align: left;
   font: normal normal normal 24px/50px Roboto;
   letter-spacing: 2.88px;
-  color: #26221D;
+  color: #26221d;
   padding-left: 12%;
   padding-bottom: 10px;
 }
@@ -235,7 +236,8 @@ ul {
   margin-left: 12%;
 }
 .services-square {
-  background: transparent url('images/services small square.svg') 0% 0% no-repeat padding-box;
+  background: transparent url("images/services small square.svg") 0% 0%
+    no-repeat padding-box;
   background-size: cover;
   height: 313px;
   text-align: center;
@@ -248,16 +250,17 @@ ul {
   text-align: center;
   font: normal normal bold 24px/29px Roboto;
   letter-spacing: 2.88px;
-  color: #26221D;
+  color: #26221d;
   text-decoration: none !important;
 }
 
 /* How We Work */
 .Home-work {
-padding-left: 12%;
+  padding-left: 12%;
 }
 .work {
-  background: transparent url('images/dashed circle.svg') 0% 0% no-repeat padding-box;
+  background: transparent url("images/dashed circle.svg") 0% 0% no-repeat
+    padding-box;
   background-size: cover;
   height: 245px;
   text-align: center;
@@ -267,13 +270,13 @@ padding-left: 12%;
   text-align: center;
   font: normal normal bold 62px/79px Lora;
   letter-spacing: 4.96px;
-  color: #26221D;
+  color: #26221d;
   padding-right: 12%;
   padding-top: 2%;
 }
 .work img {
-    width: 57%;
-    padding-left: 5%;
+  width: 57%;
+  padding-left: 5%;
 }
 .workImg {
   width: 67% !important;
@@ -297,10 +300,10 @@ padding-left: 12%;
 .work-header {
   font: normal normal bold 21px Roboto;
   letter-spacing: 2.88px;
-  color: #26221D;
+  color: #26221d;
   margin-top: 50%;
   margin-bottom: 5%;
-} 
+}
 .work-text {
   text-align: center;
   font: normal normal normal 19px/36px Roboto;
@@ -308,11 +311,10 @@ padding-left: 12%;
   color: #000000;
 }
 
-
 /* Our Projects */
 .Home-project {
   height: 645px;
-  background: transparent url('images/bg3.svg') 0% 0% no-repeat padding-box;
+  background: transparent url("images/bg3.svg") 0% 0% no-repeat padding-box;
   background-size: cover;
   width: 100%;
   margin-top: 270px;
@@ -320,7 +322,7 @@ padding-left: 12%;
 .Home-project p {
   font: normal normal bold 62px/79px Lora;
   letter-spacing: 4.96px;
-  color: #26221D;
+  color: #26221d;
   padding-top: 2%;
 }
 .Home-project-bg {
@@ -332,12 +334,12 @@ padding-left: 12%;
   border-radius: 20px;
 }
 .project-header {
-  float: right; 
+  float: right;
   padding-right: 10%;
   padding-top: 5%;
   font: normal normal bold 40px/51px Lora;
   letter-spacing: 0px;
-  color: #1E365A;
+  color: #1e365a;
 }
 .project-text {
   width: 55%;
@@ -358,4 +360,246 @@ padding-left: 12%;
   width: 37%;
   padding: 0 10% 0 0;
   float: right;
+}
+
+/* Our Clients */
+.Home-client {
+  height: 645px;
+  width: 100%;
+  margin-top: 270px;
+}
+
+.Home-client-bg {
+}
+.Home-client p {
+  font: normal normal bold 62px/79px Lora;
+  letter-spacing: 4.96px;
+  color: #26221d;
+  padding-top: 2%;
+}
+.client-header {
+  font: normal normal normal 40px/51px Lora;
+  letter-spacing: 0px;
+  color: #000000;
+  padding-left: 21%;
+  text-align: left;
+}
+.client-text {
+  font: normal normal normal 32px/50px Lora;
+  letter-spacing: 0px;
+  color: #000000;
+  text-align: left;
+  padding: 1% 27% 0 21%;
+}
+.client-text2 {
+  font: normal normal normal 16px/36px Roboto;
+  letter-spacing: 1.92px;
+  color: #000000;
+  text-align: left;
+  padding: 2% 12% 0 0;
+}
+.client-img {
+  float: left;
+  padding: 7% 7% 3% 0;
+}
+.client-name {
+  text-align: left;
+  font: normal normal bold 24px/29px Roboto;
+  letter-spacing: 2.88px;
+  color: #26221d;
+  padding-top: 7%;
+}
+.client-position {
+  text-align: left;
+  font: normal normal normal 16px/36px Roboto;
+  letter-spacing: 1.92px;
+  color: #000000;
+}
+
+/* Mobile App Development */
+
+.MobileAppDevelopment {
+  background-color: #fffbee !important;
+}
+.MobileAppDevelopment-bg {
+  height: 400px;
+  background: transparent url("images/Inner page bg.svg") 0% 0% no-repeat
+    padding-box;
+  background-size: cover;
+  width: 100%;
+}
+
+.MobileAppDevelopment-Picbanner {
+  width: 35%;
+  padding: 1% 10% 0px 0px;
+  float: right;
+}
+
+.Text-Header-Banner {
+  text-align: left;
+  font: normal normal normal 38px/61px Lora;
+  letter-spacing: 3.84px;
+  color: #ffffff;
+  padding-left: 8%;
+}
+.Subtext-Header-Banner {
+  text-align: left;
+  font: normal normal normal 22px/36px Roboto;
+  letter-spacing: 1.92px;
+  color: #ffffff;
+  padding-left: 8%;
+}
+
+.breadcrumb {
+  background-color: #fffbee !important;
+  margin-bottom: 17px;
+  padding-left: 8%;
+}
+.breadcrumb .active {
+  height: 30px;
+  background: transparent url("images/breadcombs.svg") 0% 0% no-repeat
+    padding-box;
+  background-size: cover;
+}
+.breadcrumb-item {
+  padding-right: 7px;
+  color: #000000 !important;
+}
+.breadcrumb a {
+  color: #000000 !important;
+}
+
+.what-we-do {
+  text-align: left;
+  font: normal normal normal 40px/51px Lora;
+  letter-spacing: 0px;
+  color: #000000;
+  padding-left: 8%;
+  padding-bottom: 1%;
+}
+.mobSol {
+  text-align: left;
+  font: normal normal bold 40px/51px Lora;
+  letter-spacing: 0px;
+  color: #1e365a;
+  padding-left: 8%;
+}
+.mobsol-text {
+  text-align: left;
+  font: normal normal normal 16px/36px Roboto;
+  letter-spacing: 1.92px;
+  color: #000000;
+  padding-left: 8%;
+  padding-right: 7%;
+  padding-bottom: 3%;
+}
+.tickicon {
+  float: left;
+  padding-top: 1%;
+}
+.tickiconText {
+  text-align: left;
+  font: normal normal normal 17px/30px Roboto;
+  letter-spacing: 1.92px;
+  color: #000000;
+  padding-left: 14%;
+}
+.ul-padding {
+  padding-left: 16% !important;
+}
+.ul-padding2 {
+  padding-left: 5% !important;
+  padding-right: 12%;
+}
+
+.TECHNOLOGIES {
+  padding-left: 8%;
+  background-color: #ffffff;
+  padding-bottom: 3%;
+  padding-right: 8%;
+}
+
+.TECHNOLOGIES p {
+  font: normal normal normal 48px/61px Lora;
+  letter-spacing: 3.84px;
+  color: #000000;
+  text-align: center;
+  padding-right: 12%;
+  padding-top: 2%;
+}
+.TECHNOLOGIES-title {
+  font: normal normal normal 39px/47px Roboto;
+  letter-spacing: 0px;
+  color: #1e365a;
+  padding-bottom: 3%;
+}
+.TECH-divText {
+  padding-top: 6%;
+}
+.TECH-divText1 {
+  padding-top: 16%;
+}
+.TECH-divText2 {
+  padding-top: 16%;
+}
+.TECH-divText3 {
+  padding-top: 16%;
+}
+
+/* INDUSTRIES */
+.INDUSTRIES {
+  padding: 0 10% 4% 10%;
+}
+.INDUSTRIES-title {
+  font: normal normal normal 30px/41px Lora;
+letter-spacing: 0px;
+color: #1E365A;
+padding-bottom: 3%;
+
+}
+.INDUSTRIES p {
+  font: normal normal normal 48px/61px Lora;
+  letter-spacing: 3.84px;
+  color: #000000;
+  padding: 3% 0;
+}
+.INDUSTRIES .row {
+  padding-bottom: 2%;
+}
+.INDUSTRIES img {
+  width: 80px;
+}
+.INDUST-divText {
+  padding-top: 10%;
+}
+.INDUST-divText1 {
+  padding-top: 3%;
+}
+.INDUST-divText2 {
+  padding-top: 10%;
+}
+.INDUST-divText3 {
+  padding-top: 3%;
+}
+.INDUST-divText4 {
+  padding-top: 3%;
+}
+.INDUST-divText5 {
+  padding-top: 10%;
+}
+
+/* PRODUCTS */
+.PRODUCTS {
+  background-color: white;
+}
+.PRODUCTS p {
+  font: normal normal normal 48px/61px Lora;
+  letter-spacing: 3.84px;
+  color: #000000;
+  padding-top: 2%;
+}
+.PRODUCTS-bg {
+  height: 445px;
+  width: 60%;
+  margin-left: 20%;
 }

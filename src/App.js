@@ -8,6 +8,7 @@ import "./App.css";
 
 import Home from "./components/Home";
 import MobileAppDevelopment from "./components/MobileAppDevelopment";
+import DedicatedSoftware from "./components/DedicatedSoftware";
 
 function App() {
   return (
@@ -35,7 +36,7 @@ function App() {
           <Popover
               position={Position.BOTTOM}
               content={
-                <Menu.Group>
+                <Menu>
                 <div className="row text-right hover14 column Menuclass">
             <div className="col-sm-6 col-lg-4 divWrap">
             <a className="MenuItem service-dropdown-header" href="#" role="menuitem">
@@ -95,10 +96,10 @@ function App() {
             </div>
             </div>
                   
-                </Menu.Group>
+                </Menu>
               }
             >
-              <Link className="nav-link">SERVICES</Link>
+              <Link to={"/"} className="nav-link">SERVICES</Link>
             </Popover>
           </li>
           <li className="nav-item">
@@ -120,13 +121,11 @@ function App() {
         </div>
       </nav>
 
-
-    
       <div className="">
         <Switch>
           <Route exact path={["/", "/fastsolution"]} component={Home} />
           <Route path="/services/mobile-app-development" component={MobileAppDevelopment} />
-          {/* <Route path="/services/:id" component={Services} /> */}
+          {/* <Route path="/services/:id" component={DedicatedSoftware} /> */}
         </Switch>
       </div>
       </div>

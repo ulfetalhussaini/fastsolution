@@ -18,6 +18,7 @@ import Testing from "../images/testing.svg";
 import Fastpayillustration from "../images/fastpay illustration.svg";
 import Fastpaylogo from "../images/main_logo.png";
 
+import Client from "../images/client.png"
 import MobileAppDevelopment from "./MobileAppDevelopment";
 import { Switch, Route, Link } from "react-router-dom";
 
@@ -130,21 +131,30 @@ const Home = () => {
 
 
     {/* Our Clients */}
-    {/* <div className="Home-client">
+    <div className="Home-client">
         <p>OUR CLIENTS</p>
         <div className="Home-client-bg">
         <div></div>
         <div className="row text-right hover14 column">
-            <div className="col-sm-6 col-lg-2 work">
-            <div className="project-header">FastPay - Mobile Wallet</div>
+            <div className="col-sm-6 col-lg-6 ">
+            <div className="client-header">CLIENT FEEDBACKS</div>
+            <div className="client-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et</div>
             </div>
-            <div className="col-sm-6 col-lg-2 work">
-            <div className="project-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd</div>
+            <div className="col-sm-6 col-lg-6 ">
+            <div>
+                <div>
+                    <img src={Client} className="client-img" />
+                    <div className="client-name">Bobby Cook</div>
+                    <div className="client-position">CEO, Business Name</div>
+                </div>
+                <br />
+                <div className="client-text2">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita</div>
+            </div>
           </div>
            
         </div>
   </div>
-</div> */}
+</div>
 
         <div>
         <Switch>
