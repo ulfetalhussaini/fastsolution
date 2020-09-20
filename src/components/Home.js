@@ -1,6 +1,7 @@
-import React from "react";
+import React, {useState} from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Picinbanner from "../images/18907.svg";
+import Project from "./Project";
 
 import Mobilewallet from "../images/mobile wallet.svg";
 import Ecommerce from "../images/e-commerce.svg";
@@ -15,14 +16,43 @@ import Prototype from "../images/prototype.svg";
 import Define from "../images/DEFINE.svg";
 import Testing from "../images/testing.svg";
 
-import Fastpayillustration from "../images/fastpay illustration.svg";
-import Fastpaylogo from "../images/main_logo.png";
-
 import Client from "../images/client.png"
 import MobileAppDevelopment from "./MobileAppDevelopment";
+import DedicatedSoftware from "./DedicatedSoftware";
 import { Switch, Route, Link } from "react-router-dom";
 
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/swiper.scss';
+import TWITTER from "../images/TWITTER.png";
+import Yahoo from "../images/Yahoo_Mother_2020_Desktop-01.png";
+import Google from "../images/googlelogo_color_272x92dp.png";
+
+import SwiperCore, { Navigation, Pagination, A11y } from 'swiper';
+import 'swiper/swiper-bundle.css';
+import 'swiper/swiper.scss';
+import 'swiper/components/navigation/navigation.scss';
+import 'swiper/components/pagination/pagination.scss';
+import 'swiper/components/scrollbar/scrollbar.scss';
+import dataList from "../data/data";
+
+SwiperCore.use([Navigation, Pagination, A11y]);
+
 const Home = () => {
+
+     const [texts] = useState(dataList);
+
+    const slides=[];
+    for(let i=0; i<3; i++){
+        slides.push(
+            <SwiperSlide key={`slide-${i}`} >
+                <img src={Google}  className="img-client-slider"/>
+                <img src={Yahoo}  className="img-client-slider"/>     
+                <img src={TWITTER}  className="img-client-slider"/>
+
+            </SwiperSlide>
+        )
+    }
+
     return (
       <div className="">
         {/* Header */}
@@ -60,7 +90,7 @@ const Home = () => {
             <div className="col-sm-6 col-lg-4 services-square">
             <img src={Mobileapp} />
             <br/>
-            <Link to={"/MobileAppDevelopment"} className="Link-service">Mobile App Development</Link>
+            <Link to={"/services/mobile-app-development"} className="Link-service">Mobile App Development</Link>
             </div>
             <div className="col-sm-6 col-lg-4 services-square">
             <img src={Webappdevelopment} />
@@ -121,12 +151,13 @@ const Home = () => {
   {/* Our Projects */}
   <div className="Home-project">
         <p>OUR PROJECTS</p>
-        <div className="Home-project-bg">
+        <Project  texts={texts} />
+        {/* <div className="Home-project-bg">
             <div className="project-header">FastPay - Mobile Wallet</div>
             <div className="project-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd</div>
             <img src={Fastpaylogo} className="Home-Picfastpayproject" />
             <img src={Fastpayillustration} className="Home-Picproject" />
-        </div>
+        </div> */}
   </div>
 
 
@@ -134,7 +165,21 @@ const Home = () => {
     <div className="Home-client">
         <p>OUR CLIENTS</p>
         <div className="Home-client-bg">
-        <div></div>
+        <div className="">
+
+        <Swiper
+      
+        spaceBetween={50}
+        slidesPerView={1}
+        onSlideChange={() => console.log('slide change')}
+        onSwiper={(swiper) => console.log(swiper)}
+        navigation
+        // pagination={{ clickable: true }}
+        >
+        
+        {slides}
+        </Swiper>
+        </div>
         <div className="row text-right hover14 column">
             <div className="col-sm-6 col-lg-6 ">
             <div className="client-header">CLIENT FEEDBACKS</div>
@@ -158,7 +203,8 @@ const Home = () => {
 
         <div>
         <Switch>
-          <Route path="/MobileAppDevelopment" component={MobileAppDevelopment} />
+          <Route path="/services/mobile-app-development" component={MobileAppDevelopment} />
+          <Route path="/services/DedicatedSoftware" component={DedicatedSoftware} />
           {/* <Route path="/services/:id" component={Services} /> */}
         </Switch>
       </div>

@@ -8,6 +8,7 @@ import youtube from "../images/youtube.svg";
 import instagram from "../images/instagram.svg";
 import twitter from "../images/twitter.svg";
 import linkden from "../images/linkedin.svg";
+import Emailicon from "../images/_x31_4-Email.svg";
 
 const Footer = () => {
   return (
@@ -25,6 +26,7 @@ const Footer = () => {
           </div>
           <div className="col-sm-6 col-lg-4">
             <button type="button" className="btn get-in-touch-button">
+            <img src={Emailicon} />
               GET IN TOUCH
             </button>
           </div>

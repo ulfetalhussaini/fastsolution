@@ -11,10 +11,12 @@
   padding-left: 37%;
 }
 .navbar-nav .active {
-  height: 10px;
-  background: transparent url("images/breadcombs.svg") 0% 0% no-repeat
-    padding-box;
-  background-size: cover;
+}
+.lang {
+  padding: 13px !important;
+}
+.lang-selectd {
+  padding: 0 !important;
 }
 .navColor {
   background-color: #fff6ee;
@@ -35,7 +37,8 @@
   margin-left: auto;
 }
 .navbar-toggler {
-  border: 1px solid #3c516f;
+  background: #3c516f;
+    height: 1px;
 }
 ul {
   list-style: none;
@@ -104,9 +107,9 @@ ul {
   color: #ffffff;
   float: left;
   margin-left: 12%;
-  width: 200px;
+  width: 255px;
   height: 50px;
-  font: normal normal normal 20px/19px Roboto;
+  font: normal normal normal 20px/40px Roboto;
   letter-spacing: 1.92px;
   margin-top: 67px;
 }
@@ -114,6 +117,12 @@ ul {
   border: 1px solid #f49512;
   background-color: transparent;
   color: #f49512;
+}
+.get-in-touch-button img {
+  background-color: #f49512;
+  border: 1px solid #f49512;
+  width: 37px;
+  float: left;
 }
 .footer-blue {
   background-color: #1e365a;
@@ -145,13 +154,22 @@ ul {
   background-size: cover;
   width: 100%;
 }
-
+@media (max-width: 576px) {
+  .Home-header {
+    height: 823px;
+  }
+}
 .Home-Picbanner {
   width: 45%;
   padding: 8% 10% 0px 0px;
   float: right;
 }
-
+@media (max-width: 576px) {
+  .Home-Picbanner {
+    width: 90%;
+    padding: 8% 10% 10px 0px;
+  }
+}
 .Text-Header-Banner {
   padding-top: 10%;
   padding-left: 12%;
@@ -171,6 +189,11 @@ ul {
   color: #fff6ee;
   padding-left: 12%;
   padding-top: 10px;
+}
+@media (max-width: 576px) {
+  .Subtext-Header-Banner {
+    padding-right: 45%;
+  }
 }
 .explore-button {
   border-radius: 5px;
@@ -212,7 +235,11 @@ ul {
   width: 100%;
   margin: -23px 0 0 -23px;
 }
-
+@media (max-width: 576px) {
+  .Home-services {
+    height: 100%;
+  }
+}
 .Text-Home-services {
   text-align: left;
   font: normal normal bold 62px/79px Lora;
@@ -243,6 +270,12 @@ ul {
   text-align: center;
   padding-top: 5%;
 }
+@media (max-width: 576px) {
+  .services-square {
+    height: 285px;
+    padding-top: 15%;
+  }
+}
 .services-square img {
   margin-bottom: 7%;
 }
@@ -258,6 +291,11 @@ ul {
 .Home-work {
   padding-left: 12%;
 }
+@media (max-width: 576px) {
+  .Home-work {
+    padding: 0;
+  }
+}
 .work {
   background: transparent url("images/dashed circle.svg") 0% 0% no-repeat
     padding-box;
@@ -265,6 +303,15 @@ ul {
   height: 245px;
   text-align: center;
   padding-top: 5%;
+}
+@media (max-width: 576px) {
+  .work {
+    background: transparent url("images/dashed circle.svg") 0% 0% no-repeat
+      padding-box;
+    background-size: contain;
+    padding: 0;
+    height: 100%;
+  }
 }
 .Home-work p {
   text-align: center;
@@ -282,6 +329,15 @@ ul {
   width: 67% !important;
   padding: 7% 0 0 5% !important;
 }
+
+
+@media (max-width: 576px) {
+  .workImg {
+    padding: 0;
+    width: 60%;
+    padding-top: 33%;
+  }
+}
 .work-divText {
   padding-top: 22%;
 }
@@ -296,6 +352,15 @@ ul {
 }
 .work-divText4 {
   padding-top: 15%;
+}
+@media (max-width: 576px) {
+  .work-divText,
+  .work-divText1,
+  .work-divText2,
+  .work-divText3,
+  .work-divText4 {
+    padding: 0;
+  }
 }
 .work-header {
   font: normal normal bold 21px Roboto;
@@ -364,11 +429,18 @@ ul {
 
 /* Our Clients */
 .Home-client {
-  height: 645px;
+  height: 675px;
   width: 100%;
-  margin-top: 270px;
 }
-
+.img-client-slider {
+  padding: 3% 4% 7% 4%;
+}
+.swiper-button-next {
+  right: 8% !important;
+}
+.swiper-button-prev {
+  left: 8% !important;
+}
 .Home-client-bg {
 }
 .Home-client p {
@@ -442,6 +514,11 @@ ul {
   color: #ffffff;
   padding-left: 8%;
 }
+@media (max-width: 576px) {
+  .Text-Header-Banner, .Subtext-Header-Banner {
+    width: 100%;
+  }
+}
 .Subtext-Header-Banner {
   text-align: left;
   font: normal normal normal 22px/36px Roboto;
@@ -468,8 +545,10 @@ ul {
 .breadcrumb a {
   color: #000000 !important;
 }
-
 .what-we-do {
+  padding-bottom: 3%;
+}
+.what-we-do-title {
   text-align: left;
   font: normal normal normal 40px/51px Lora;
   letter-spacing: 0px;
@@ -552,10 +631,9 @@ ul {
 }
 .INDUSTRIES-title {
   font: normal normal normal 30px/41px Lora;
-letter-spacing: 0px;
-color: #1E365A;
-padding-bottom: 3%;
-
+  letter-spacing: 0px;
+  color: #1e365a;
+  padding-bottom: 3%;
 }
 .INDUSTRIES p {
   font: normal normal normal 48px/61px Lora;
@@ -591,6 +669,7 @@ padding-bottom: 3%;
 /* PRODUCTS */
 .PRODUCTS {
   background-color: white;
+  padding-bottom: 4%;
 }
 .PRODUCTS p {
   font: normal normal normal 48px/61px Lora;
@@ -602,4 +681,89 @@ padding-bottom: 3%;
   height: 445px;
   width: 60%;
   margin-left: 20%;
+}
+
+/* DedicatedSoftware */
+.DedicatedSoftware {
+  background-color: #fffbee;
+}
+.DedicatedSoftware-Picbanner {
+  width: 43%;
+  padding: 3% 10% 0px 0px;
+  float: right;
+}
+.MobileAppDevelopment-bg .Text-Header-Banner {
+  padding-top: 7% !important;
+}
+/* ADVANTAGES */
+.ADVANTAGES {
+  padding: 0 10% 4% 10%;
+  background-color: #ffffff;
+}
+.ModelIdea {
+  padding-bottom: 3%;
+}
+.model-ideal-title {
+  text-align: left;
+  font: normal normal normal 40px/51px Lora;
+  letter-spacing: 0px;
+  color: #1e365a;
+  padding-left: 8%;
+}
+.ul-padding li {
+  overflow: hidden;
+  height: 85px;
+  padding: 5% 0 5% 0;
+}
+.ul-padding2 li {
+  overflow: hidden;
+  height: 85px;
+  padding: 5% 0 5% 0;
+}
+.ADVANTAGES p {
+  font: normal normal normal 42px/61px Lora;
+  letter-spacing: 2.74px;
+  color: #000000;
+  padding: 7% 0 3% 0;
+}
+.adv-name {
+  text-align: left;
+  font: normal normal normal 24px/31px Lora;
+  letter-spacing: 0px;
+  color: #000000;
+  text-transform: uppercase;
+}
+.adv-position {
+  text-align: left;
+  font: normal normal normal 16px/29px Roboto;
+  letter-spacing: 1.92px;
+  color: #000000;
+}
+.ADVANTAGES img {
+  width: 40%;
+}
+.adv-img {
+  float: left;
+  padding: 0 7% 3% 0;
+}
+
+/* Works */
+.Works {
+  padding: 0 10% 4% 10%;
+  background-color: #fffbee;
+}
+.Works p {
+  font: normal normal normal 48px/100px Lora;
+  letter-spacing: 2.74px;
+  color: #000000;
+}
+.Works img {
+}
+.Works-img {
+  float: right;
+  padding: 12% 0 12% 0;
+}
+
+.title-helps {
+  padding: 28px 26% 0 26%;
 }
