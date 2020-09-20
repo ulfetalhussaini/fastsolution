@@ -38,7 +38,7 @@
 }
 .navbar-toggler {
   background: #3c516f;
-    height: 1px;
+  height: 1px;
 }
 ul {
   list-style: none;
@@ -71,7 +71,11 @@ ul {
   flex-wrap: wrap;
   width: 437px;
 }
-
+@media (max-width: 576px) {
+  .client1 {
+    padding-left: 12%;
+  }
+}
 /* Footer */
 .footer {
   font: normal normal bold 16px/19px Roboto;
@@ -124,11 +128,28 @@ ul {
   width: 37px;
   float: left;
 }
+@media (max-width: 576px) {
+  .footer-yellow {
+    height: 100%;
+    margin-top: 122%;
+    padding-bottom: 15%;
+  }
+}
 .footer-blue {
   background-color: #1e365a;
   height: 400px;
   padding: 5% 0 0 8%;
   color: #ffffff;
+}
+@media (max-width: 576px) {
+  .footer-blue {
+    height: 100%;
+  }
+}
+@media (max-width: 576px) {
+  .blue-col {
+    padding: 4% 0;
+  }
 }
 .footer-blue a {
   color: #ffffff !important;
@@ -259,6 +280,11 @@ ul {
 .Home-services-div {
   padding-right: 12%;
 }
+@media (max-width: 576px) {
+  .Home-services-div {
+    padding-bottom: 30%;
+  }
+}
 .Home-services .row {
   margin-left: 12%;
 }
@@ -293,7 +319,7 @@ ul {
 }
 @media (max-width: 576px) {
   .Home-work {
-    padding: 0;
+    padding: 0 0 30% 0;
   }
 }
 .work {
@@ -325,17 +351,19 @@ ul {
   width: 57%;
   padding-left: 5%;
 }
+@media (max-width: 576px) {
+.work img {
+  width: 45%;
+    padding: 28% 1% 0 0;
+}}
 .workImg {
   width: 67% !important;
   padding: 7% 0 0 5% !important;
 }
 
-
 @media (max-width: 576px) {
   .workImg {
-    padding: 0;
-    width: 60%;
-    padding-top: 33%;
+    padding: 30% 5% 0 4% !important;
   }
 }
 .work-divText {
@@ -354,13 +382,17 @@ ul {
   padding-top: 15%;
 }
 @media (max-width: 576px) {
-  .work-divText,
-  .work-divText1,
   .work-divText2,
   .work-divText3,
   .work-divText4 {
-    padding: 0;
+    padding-top: 0 !important;
   }
+}
+@media (max-width: 576px) {
+.work-divText,
+.work-divText1{
+  padding-top: 10%;
+}
 }
 .work-header {
   font: normal normal bold 21px Roboto;
@@ -369,13 +401,23 @@ ul {
   margin-top: 50%;
   margin-bottom: 5%;
 }
+@media (max-width: 576px) {
+.work-header {
+  margin-top: 25%;
+}}
 .work-text {
   text-align: center;
   font: normal normal normal 19px/36px Roboto;
   letter-spacing: 1.92px;
   color: #000000;
 }
-
+@media (max-width: 576px) {
+  .work-text {
+    padding: 3%;
+    height: 100px;
+    overflow: hidden;
+  }
+}
 /* Our Projects */
 .Home-project {
   height: 645px;
@@ -383,6 +425,12 @@ ul {
   background-size: cover;
   width: 100%;
   margin-top: 270px;
+}
+@media (max-width: 576px) {
+  .Home-project {
+    padding-bottom: 30%;
+    margin-top: 0;
+  }
 }
 .Home-project p {
   font: normal normal bold 62px/79px Lora;
@@ -397,6 +445,12 @@ ul {
   margin-left: 20%;
   box-shadow: 6px 3px 30px #00000029;
   border-radius: 20px;
+}
+@media (max-width: 576px) {
+  .Home-project-bg {
+    width: 100%;
+    margin: 0;
+  }
 }
 .project-header {
   float: right;
@@ -416,6 +470,12 @@ ul {
   letter-spacing: 1.92px;
   color: #000000;
 }
+@media (max-width: 576px) {
+  .project-text {
+    overflow: hidden;
+    height: 310px;
+  }
+}
 .Home-Picproject {
   width: 40%;
   padding: 0 5% 0 0;
@@ -426,8 +486,17 @@ ul {
   padding: 0 10% 0 0;
   float: right;
 }
-
+@media (max-width: 576px) {
+  .Home-Picfastpayproject {
+    padding: 15% 10% 0 0;
+  }
+}
 /* Our Clients */
+@media (max-width: 576px) {
+  .swiperSlider {
+    padding-bottom: 30%;
+  }
+}
 .Home-client {
   height: 675px;
   width: 100%;
@@ -462,6 +531,12 @@ ul {
   color: #000000;
   text-align: left;
   padding: 1% 27% 0 21%;
+}
+@media (max-width: 576px) {
+  .client-header,
+  .client-text {
+    padding: 0;
+  }
 }
 .client-text2 {
   font: normal normal normal 16px/36px Roboto;
@@ -515,7 +590,8 @@ ul {
   padding-left: 8%;
 }
 @media (max-width: 576px) {
-  .Text-Header-Banner, .Subtext-Header-Banner {
+  .Text-Header-Banner,
+  .Subtext-Header-Banner {
     width: 100%;
   }
 }

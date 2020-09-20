@@ -34,7 +34,7 @@ const Footer = () => {
       </div>
 
       <div className="footer-blue">
-        <div className="row text-left hover14 column">
+        <div className="row text-left hover14 column blue-col">
           <div className="col-sm-6 col-lg-4">
             <ul>
               <li>
@@ -66,7 +66,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className="col-sm-6 col-lg-4">
+          <div className="col-sm-6 col-lg-4 blue-col">
             <ul>
               <li>CONTACT US</li>
               <li className="liStyle">
@@ -78,7 +78,7 @@ const Footer = () => {
               <li className="liStyle">contact@fastsolutioninc.com</li>
             </ul>
           </div>
-          <div className="col-sm-6 col-lg-4">
+          <div className="col-sm-6 col-lg-4 blue-col">
             <ul>
               <li>USEFUL LINKS</li>
               <li className="liStyle">

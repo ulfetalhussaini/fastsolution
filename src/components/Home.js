@@ -152,12 +152,6 @@ const Home = () => {
   <div className="Home-project">
         <p>OUR PROJECTS</p>
         <Project  texts={texts} />
-        {/* <div className="Home-project-bg">
-            <div className="project-header">FastPay - Mobile Wallet</div>
-            <div className="project-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd</div>
-            <img src={Fastpaylogo} className="Home-Picfastpayproject" />
-            <img src={Fastpayillustration} className="Home-Picproject" />
-        </div> */}
   </div>
 
 
@@ -165,10 +159,8 @@ const Home = () => {
     <div className="Home-client">
         <p>OUR CLIENTS</p>
         <div className="Home-client-bg">
-        <div className="">
-
+        <div className="swiperSlider">
         <Swiper
-      
         spaceBetween={50}
         slidesPerView={1}
         onSlideChange={() => console.log('slide change')}
@@ -180,7 +172,7 @@ const Home = () => {
         {slides}
         </Swiper>
         </div>
-        <div className="row text-right hover14 column">
+        <div className="row hover14 column client1">
             <div className="col-sm-6 col-lg-6 ">
             <div className="client-header">CLIENT FEEDBACKS</div>
             <div className="client-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et</div>

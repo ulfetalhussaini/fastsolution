@@ -15,6 +15,7 @@ import DedicatedSoftware from "./DedicatedSoftware";
 function Header() {
   return (
     <div className="App">
+
       <nav className="navbar navbar-expand-lg navColor">
         <a href="/fastsolution" className="navbar-brand">
           <img src={logo} className="App-logo" alt="logo" />
