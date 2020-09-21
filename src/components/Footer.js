@@ -26,7 +26,7 @@ const Footer = () => {
           </div>
           <div className="col-sm-6 col-lg-4">
             <button type="button" className="btn get-in-touch-button">
-            <img src={Emailicon} />
+              <img src={Emailicon} />
               GET IN TOUCH
             </button>
           </div>
@@ -38,7 +38,9 @@ const Footer = () => {
           <div className="col-sm-6 col-lg-4">
             <ul>
               <li>
-                <img src={Fastsolution_logo_dark} className="footer-logo" />
+                <a href="/fastsolution">
+                  <img src={Fastsolution_logo_dark} className="footer-logo" />
+                </a>
               </li>
               <li className="liStyle">
                 Transforming Business Using Technology

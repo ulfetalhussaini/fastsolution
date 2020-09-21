@@ -1,4 +1,4 @@
-import React , {useState} from "react";
+import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Picinbanner from "../images/3369656.svg";
 import Tickicon from "../images/tick icon.svg";
@@ -18,11 +18,10 @@ import Project from "./Project";
 import dataList from "../data/data";
 import ModelandDoing from "./ModelandDoing";
 
-var _ = require('lodash');
+var _ = require("lodash");
 let list = [];
 
 function MobileAppDevelopment() {
-
   const [texts] = useState(dataList);
 
   return (
@@ -63,27 +62,27 @@ function MobileAppDevelopment() {
         sed diam voluptua. At vero eos et accusam.
       </div>
 
-<div className="what-we-do">
-      <div className="what-we-do-title">What we do?</div>
-      <div className="row hover14 column">
-        <div className="col-sm-6 col-lg-6">
-          <ul className="ul-padding">
-          { _.times(2,() => {
-             list.push(<ModelandDoing texts={texts} />)
-            })}
-          {list}
-          </ul>
-        </div>
-        <div className="col-sm-6 col-lg-6">
-          <ul className="ul-padding2">
-          { _.times(2,() => {
-             list.push(<ModelandDoing texts={texts} />)
-            })}
-          {list}
-          </ul>
+      <div className="what-we-do">
+        <div className="what-we-do-title">What we do?</div>
+        <div className="row hover14 column">
+          <div className="col-sm-6 col-lg-6">
+            <ul className="ul-padding">
+              {_.times(2, () => {
+                list.push(<ModelandDoing texts={texts} />);
+              })}
+              {list}
+            </ul>
+          </div>
+          <div className="col-sm-6 col-lg-6">
+            <ul className="ul-padding2">
+              {_.times(2, () => {
+                list.push(<ModelandDoing texts={texts} />);
+              })}
+              {list}
+            </ul>
+          </div>
         </div>
       </div>
-</div>
       {/* TECHNOLOGIES WE USE */}
 
       <div className="TECHNOLOGIES">
@@ -166,7 +165,7 @@ function MobileAppDevelopment() {
       {/* FEATURED PRODUCTS */}
       <div className="PRODUCTS">
         <p>FEATURED PRODUCTS</p>
-        <Project  texts={texts} />
+        <Project texts={texts} />
         {/* <div className="PRODUCTS-bg">
           <div className="project-header">FastPay - Mobile Wallet</div>
           <div className="project-text">

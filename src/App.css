@@ -7,9 +7,10 @@
 /* Navbar */
 
 .App-logo {
-  height: 5vmin;
-  padding-left: 37%;
+  height: 6vmin;
+  padding-left: 25%;
 }
+
 .navbar-nav .active {
 }
 .lang {
@@ -47,9 +48,19 @@ ul {
   padding: 0 57px 100px 6px;
   background-color: #133178 !important;
 }
+@media (max-width: 768px) {
+  .Menuclass {
+    width: 320px !important;
+  }
+}
 .MenuItem {
   color: #ffffff !important;
   float: left;
+}
+@media (max-width: 768px) {
+  .MenuItem {
+    font-size: 15px !important;
+  }
 }
 .service-dropdown-header {
   text-align: left;
@@ -60,6 +71,12 @@ ul {
   float: left;
   padding: 10% 0 15% 23%;
 }
+@media (max-width: 768px) {
+  .service-dropdown-header {
+    padding: 0;
+    font: normal normal normal 32px/0px Lora;
+  }
+}
 .service-dropdown-text {
   text-align: left;
   font: normal normal normal 24px/30px Roboto;
@@ -67,6 +84,7 @@ ul {
   text-decoration: none !important;
   padding: 0 0 3% 23%;
 }
+
 .divWrap {
   flex-wrap: wrap;
   width: 437px;
@@ -131,7 +149,7 @@ ul {
 @media (max-width: 576px) {
   .footer-yellow {
     height: 100%;
-    margin-top: 122%;
+    margin-top: 115%;
     padding-bottom: 15%;
   }
 }
@@ -352,10 +370,11 @@ ul {
   padding-left: 5%;
 }
 @media (max-width: 576px) {
-.work img {
-  width: 45%;
+  .work img {
+    width: 45%;
     padding: 28% 1% 0 0;
-}}
+  }
+}
 .workImg {
   width: 67% !important;
   padding: 7% 0 0 5% !important;
@@ -389,10 +408,10 @@ ul {
   }
 }
 @media (max-width: 576px) {
-.work-divText,
-.work-divText1{
-  padding-top: 10%;
-}
+  .work-divText,
+  .work-divText1 {
+    padding-top: 10%;
+  }
 }
 .work-header {
   font: normal normal bold 21px Roboto;
@@ -402,9 +421,10 @@ ul {
   margin-bottom: 5%;
 }
 @media (max-width: 576px) {
-.work-header {
-  margin-top: 25%;
-}}
+  .work-header {
+    margin-top: 25%;
+  }
+}
 .work-text {
   text-align: center;
   font: normal normal normal 19px/36px Roboto;
@@ -568,6 +588,7 @@ ul {
 .MobileAppDevelopment {
   background-color: #fffbee !important;
 }
+
 .MobileAppDevelopment-bg {
   height: 400px;
   background: transparent url("images/Inner page bg.svg") 0% 0% no-repeat
@@ -575,13 +596,23 @@ ul {
   background-size: cover;
   width: 100%;
 }
-
+@media (max-width: 576px) {
+  .MobileAppDevelopment-bg {
+    height: 100%;
+    padding-bottom: 10%;
+  }
+}
 .MobileAppDevelopment-Picbanner {
   width: 35%;
   padding: 1% 10% 0px 0px;
   float: right;
 }
-
+@media (max-width: 576px) {
+  .MobileAppDevelopment-Picbanner {
+    width: 90%;
+    padding: 5% 10% 5% 0px;
+  }
+}
 .Text-Header-Banner {
   text-align: left;
   font: normal normal normal 38px/61px Lora;
@@ -665,6 +696,11 @@ ul {
 .ul-padding2 {
   padding-left: 5% !important;
   padding-right: 12%;
+}
+@media (max-width: 576px) {
+  .ul-padding2 {
+    padding-left: 16% !important;
+  }
 }
 
 .TECHNOLOGIES {
@@ -768,6 +804,12 @@ ul {
   padding: 3% 10% 0px 0px;
   float: right;
 }
+@media (max-width: 576px) {
+  .DedicatedSoftware-Picbanner {
+    width: 95%;
+    padding: 10% 5% 5% 0px;
+  }
+}
 .MobileAppDevelopment-bg .Text-Header-Banner {
   padding-top: 7% !important;
 }
@@ -811,9 +853,14 @@ ul {
 }
 .adv-position {
   text-align: left;
-  font: normal normal normal 16px/29px Roboto;
+  font: normal normal normal 16px/25px Roboto;
   letter-spacing: 1.92px;
   color: #000000;
+}
+@media (max-width: 576px) {
+  .adv-position {
+    padding-bottom: 10%;
+  }
 }
 .ADVANTAGES img {
   width: 40%;
